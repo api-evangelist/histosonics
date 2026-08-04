@@ -1,17 +1,35 @@
 aid: histosonics
+image: https://histosonics.com/wp-content/uploads/2023/10/logo.svg
 name: HistoSonics
-description: 'HistoSonics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+description: HistoSonics is a medical device company commercializing histotripsy, a non-invasive,
+  non-thermal and non-ionizing sonic beam therapy that uses focused ultrasound to form a controlled
+  bubble cloud which mechanically destroys and liquefies targeted tissue at a sub-cellular level.
+  Its robotically assisted Edison Histotripsy System received U.S. FDA marketing authorization
+  through the De Novo Classification Request process in October 2023 for the non-invasive
+  destruction of liver tumors, making it the first histotripsy platform authorized anywhere in the
+  world, and has since added CE Mark authorization in Europe and an FDA submission covering kidney
+  tumors. The underlying science originated with researchers at the University of Michigan, and the
+  company maintains clinical partnerships with the University of Michigan and the University of
+  Wisconsin. HistoSonics publishes no public developer portal, API documentation, SDK, or
+  machine-readable API specification; its public web surface is a marketing, clinical-evidence,
+  physician-education and eIFU site rather than an API platform.
 url: https://raw.githubusercontent.com/api-evangelist/histosonics/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
 x-tier: stub
-x-tier-reason: harvest
+x-tier-reason: no-public-api-surface
 specificationVersion: '0.20'
 created: '2026-08-04'
 modified: '2026-08-04'
 tags:
 - Company
+- Medical Devices
+- Healthcare
+- Health Technology
+- Oncology
+- Focused Ultrasound
+- Surgical Robotics
+- Medical Imaging
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -19,5 +37,64 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  name: HistoSonics domain security probe
+  url: security/histosonics-domain-security.yml
+- type: LLMsTxt
+  name: HistoSonics llms.txt
+  url: llms/histosonics-llms.txt
 - type: Website
+  name: HistoSonics
+  url: https://histosonics.com/
+- type: About
+  name: About HistoSonics
+  url: https://histosonics.com/about-us/
+- type: News
+  name: HistoSonics News
+  url: https://histosonics.com/resources/news/
+- type: BlogFeeds
+  name: HistoSonics news RSS feed
+  url: https://histosonics.com/resources/news/feed/
+- type: Contact
+  name: Let's Talk
+  url: https://histosonics.com/lets-talk/
+- type: Careers
+  name: Careers at HistoSonics
+  url: https://histosonics.com/careers/
+- type: Education
+  name: HistoSonics Education
+  url: https://histosonics.com/education/
+- type: Events
+  name: HistoSonics Events
+  url: https://histosonics.com/events/
+- type: Videos
+  name: HistoSonics Resource Videos
+  url: https://histosonics.com/resources/videos/
+- type: Patents
+  name: HistoSonics Patents
+  url: https://histosonics.com/patents/
+- type: TermsOfService
+  name: Terms of Use
+  url: https://histosonics.com/terms-of-use/
+- type: PrivacyPolicy
+  name: Privacy Policy
+  url: https://histosonics.com/privacy-policy/
+- type: LinkedIn
+  name: HistoSonics on LinkedIn
+  url: https://www.linkedin.com/company/histosonics-inc-/
+- type: Twitter
+  name: HistoSonics on X
+  url: https://twitter.com/histosonics
+- type: InvestorProfile
+  name: HistoSonics on Forge Global (secondary market)
   url: https://forgeglobal.com/histosonics_stock/
+x-enrichment:
+  date: '2026-08-04'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+  note: >-
+    Full contract discovery run (STEP 0b) against histosonics.com and myhistotripsy.com; no API
+    host, docs host, or developer subdomain resolves. No OpenAPI/Swagger, GraphQL, MCP, AsyncAPI,
+    agent card, llms.txt, SDK, or /.well-known/ document exists. HistoSonics is a medical device
+    manufacturer, not an API producer.

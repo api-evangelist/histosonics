@@ -42,5 +42,25 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-HistoSonics is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://forgeglobal.com/histosonics_stock/
+HistoSonics is a medical device company commercializing histotripsy, a non-invasive, non-thermal and
+non-ionizing sonic beam therapy that uses focused ultrasound to form a controlled bubble cloud which
+mechanically destroys and liquefies targeted tissue at a sub-cellular level. Its robotically assisted
+Edison Histotripsy System received U.S. FDA marketing authorization through the De Novo Classification
+Request process in October 2023 for the non-invasive destruction of liver tumors — the first histotripsy
+platform authorized anywhere in the world — and has since added CE Mark authorization in Europe. The
+underlying science originated with researchers at the University of Michigan.
+
+## API surface
+
+**None published.** A full contract-discovery pass on 2026-08-04 found no developer portal, no API
+documentation, no OpenAPI/Swagger/GraphQL/AsyncAPI contract, no MCP server, no A2A agent card, no
+`llms.txt`, no first-party SDK on any public package registry, and no `/.well-known/` discovery
+document on any HistoSonics host. `api.`, `developer.`, `docs.`, `status.` and `trust.histosonics.com`
+do not resolve. The public web surface is a marketing, clinical-evidence, physician-education and
+eIFU site, not an API platform.
+
+## Links
+
+- https://histosonics.com/
+- https://myhistotripsy.com/ — patient education site
+- https://forgeglobal.com/histosonics_stock/ — secondary-market listing

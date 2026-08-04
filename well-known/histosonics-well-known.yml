@@ -1,0 +1,39 @@
+generated: '2026-08-04'
+method: probed
+source: live HTTP probes of every HistoSonics host known to apis.yml
+summary: >-
+  No /.well-known/ discovery document is published on any HistoSonics host. Every canonical path
+  returned HTTP 404 with an HTML body (the WordPress marketing-site 404 template). Recorded as
+  negative evidence so later runs do not re-probe blindly. No WellKnown or SecurityTxt pointer is
+  wired into apis.yml because no document exists to point at.
+hosts:
+- host: https://histosonics.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: https://myhistotripsy.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+x-evidence:
+  fetched: '2026-08-04'
+  method: curl -s -L -o /dev/null -w '%{http_code}'
+  note: >-
+    api.histosonics.com, developer.histosonics.com, docs.histosonics.com, status.histosonics.com and
+    trust.histosonics.com do not resolve (connection failure, curl exit code 0 / HTTP 000).
