@@ -2,13 +2,20 @@
   "repo": "histosonics",
   "feeds": [
     {
+      "source": "https://histosonics.com/feed/",
+      "feed_url": "https://histosonics.com/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://histosonics.com/resources/news/",
       "feed_url": "https://histosonics.com/feed/",
       "title": "",
-      "saved": 10,
+      "saved": 0,
       "method": "discovered"
     }
   ],
   "post_count": 10,
-  "fetched": "2026-08-15T12:11:08Z"
+  "fetched": "2026-08-22T20:20:02Z"
 }
