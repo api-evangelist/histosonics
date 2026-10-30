@@ -64,25 +64,81 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-HistoSonics is a medical device company commercializing histotripsy, a non-invasive, non-thermal and
-non-ionizing sonic beam therapy that uses focused ultrasound to form a controlled bubble cloud which
-mechanically destroys and liquefies targeted tissue at a sub-cellular level. Its robotically assisted
-Edison Histotripsy System received U.S. FDA marketing authorization through the De Novo Classification
-Request process in October 2023 for the non-invasive destruction of liver tumors — the first histotripsy
-platform authorized anywhere in the world — and has since added CE Mark authorization in Europe. The
-underlying science originated with researchers at the University of Michigan.
+HistoSonics is a medical device company commercializing histotripsy, a non-invasive, non-thermal and non-ionizing sonic beam therapy that uses focused ultrasound to form a controlled bubble cloud which mechanically destroys and liquefies targeted tissue at a sub-cellular level. Its robotically assisted Edison Histotripsy System received U.S. FDA marketing authorization through the De Novo Classification Request process in October 2023 for the non-invasive destruction of liver tumors, making it the first histotripsy platform authorized anywhere in the world, and has since added CE Mark authorization in Europe and an FDA submission covering kidney tumors. The underlying science originated with researchers at the University of Michigan, and the company maintains clinical partnerships with the University of Michigan and the University of Wisconsin. HistoSonics publishes no public developer portal, API documentation, SDK, or machine-readable API specification; its public web surface is a marketing, clinical-evidence, physician-education and eIFU site rather than an API platform.
 
-## API surface
+**Areas:** Company · Medical Devices · Healthcare · Health Tech · Oncology · Focused Ultrasound · Surgical Robotics · Medical Imaging
 
-**None published.** A full contract-discovery pass on 2026-08-04 found no developer portal, no API
-documentation, no OpenAPI/Swagger/GraphQL/AsyncAPI contract, no MCP server, no A2A agent card, no
-`llms.txt`, no first-party SDK on any public package registry, and no `/.well-known/` discovery
-document on any HistoSonics host. `api.`, `developer.`, `docs.`, `status.` and `trust.histosonics.com`
-do not resolve. The public web surface is a marketing, clinical-evidence, physician-education and
-eIFU site, not an API platform.
+## HistoSonics on APIs.io
 
-## Links
+Everything profiled for HistoSonics is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/histosonics/](https://apis.io/providers/histosonics/)** — or go straight to one of the APIs or properties below.
 
-- https://histosonics.com/
-- https://myhistotripsy.com/ — patient education site
-- https://forgeglobal.com/histosonics_stock/ — secondary-market listing
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Histosonics Domain Security](https://apis.io/security/histosonics/histosonics-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://histosonics.com/)
+- [Terms of service](https://histosonics.com/terms-of-use/)
+- [Privacy policy](https://histosonics.com/privacy-policy/)
+
+## API Evangelist rating
+
+**Kin Score 9.0** — minimal · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 50.0 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 0.0 |
+| Access clarity | 21.1 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 10.9** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/histosonics/](https://apis.io/providers/histosonics/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for HistoSonics: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/histosonics/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
